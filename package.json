@@ -1,0 +1,41 @@
+{
+  "name": "kabileonline-backend",
+  "version": "3.0.0",
+  "description": "El emeği göz nuru online strateji oyunu",
+  "author": "KAON Studio",
+  "license": "MIT",
+  "main": "app.js",
+  "scripts": {
+    "start": "node ./app.js",
+    "dev": "nodemon ./app.js",
+    "test": "newman run ./tests/api-tests.postman.json -e ./tests/env-api-tests.postman.json",
+    "stop": "lsof -ti :3000 | xargs kill"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KaOnStudio/kabileonline-backend.git"
+  },
+  "dependencies": {
+    "body-parser": "1.15.0",
+    "cors": "2.7.1",
+    "ejs": "2.4.1",
+    "errorhandler": "1.4.3",
+    "express": "4.13.4",
+    "express-jwt": "3.3.0",
+    "express-session": "1.13.0",
+    "jsonwebtoken": "7.1.9",
+    "method-override": "2.3.5",
+    "methods": "1.1.2",
+    "mysql": "^2.15.0",
+    "sequelize": "3.30.4",
+    "morgan": "1.7.0",
+    "passport": "0.3.2",
+    "passport-local": "1.0.0",
+    "request": "2.69.0",
+    "underscore": "1.8.3"
+  },
+  "devDependencies": {
+    "newman": "^3.8.2",
+    "nodemon": "^1.11.0"
+  }
+}
