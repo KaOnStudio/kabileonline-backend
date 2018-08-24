@@ -9,18 +9,20 @@ Project demo is available at (https://kabileonline.com/)
 * [Node](https://nodejs.org/)
 * [Mysql](https://mysql.com/)
 * [Sequelize](https://sequelize.com/)
-- [Express](https://github.com/expressjs/express) - The server for handling and routing HTTP requests
-- [Express-jwt](https://github.com/auth0/express-jwt) - Middleware for validating JWTs for authentication
-- [Jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - For generating JWTs used by authentication
-- [Passport](https://github.com/jaredhanson/passport) - For handling user authentication
+* [Express](https://github.com/expressjs/express) - The server for handling and routing HTTP requests
+* [Express-jwt](https://github.com/auth0/express-jwt) - Middleware for validating JWTs for authentication
+* [Jsonwebtoken](https://github.com/auth0/node-jsonwebtoken) - For generating JWTs used by authentication
+* [Passport](https://github.com/jaredhanson/passport) - For handling user authentication
 
 # Getting started
 
 To get the Node server running locally:
-
-- Clone this repo
-- `npm install` to install all required dependencies
-- `npm run dev` to start the local server
+``` bash
+# to install all required dependencies
+> npm install
+# to start the local server
+> npm run dev
+```
 
 ## Application Structure
 
